@@ -1,0 +1,168 @@
+16/03/2016 12:02:54
+Noble crayfish in Division IIa and IIb, stock code: aas-arct. Working year 2016. Data year 2015
+Allocation Scheme: WKIC demo. Allocation Scheme description: WKIC demo desc
+
+
+TABLE 2.
+Catch data, both catches were there are sample data (age or length data) and catches were there are no sample data.
+AGE OR LENGTH DATA ARE INCLUDED
+
+Stock	Country	Year	CatchCategory	ReportingCategory	CATONRaisedOrImported	MisreportedArea	Area	Season	SeasonType	Fleet	CATON	Effort	UnitEffort	OfficialLandings	SampledOrEstimated	Sex	AgeOrLength	AgeOrLengthType	CANUM	WECA	LECA	SampledCatch	No. of Length Samples	No. of Length Measured	No. of Age Samples	No. Age Readings
+											in kg			in kg											in numbers	in numbers	in numbers	in numbers
+
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	SDN_DEF_>=120_0_0_all	50000.00	25	kWd	50000	Estimated_Distribution	Undetermined	0	Age	12251.72	11.38	119.49	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	SDN_DEF_>=120_0_0_all	50000.00	25	kWd	50000	Estimated_Distribution	Undetermined	1	Age	28351.34	21.11	145.62	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	SDN_DEF_>=120_0_0_all	50000.00	25	kWd	50000	Estimated_Distribution	Undetermined	2	Age	29875.36	53.26	201.17	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	SDN_DEF_>=120_0_0_all	50000.00	25	kWd	50000	Estimated_Distribution	Undetermined	3	Age	28514.93	87.21	231.16	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	SDN_DEF_>=120_0_0_all	50000.00	25	kWd	50000	Estimated_Distribution	Undetermined	4	Age	83775.83	138.19	263.69	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	SDN_DEF_>=120_0_0_all	50000.00	25	kWd	50000	Estimated_Distribution	Undetermined	5	Age	62445.79	159.54	276.22	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	SDN_DEF_>=120_0_0_all	50000.00	25	kWd	50000	Estimated_Distribution	Undetermined	6	Age	61488.05	175.91	286.34	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	SDN_DEF_>=120_0_0_all	50000.00	25	kWd	50000	Estimated_Distribution	Undetermined	7	Age	39324.96	184.98	292.06	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	SDN_DEF_>=120_0_0_all	50000.00	25	kWd	50000	Estimated_Distribution	Undetermined	8	Age	28617.80	194.06	297.03	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	163997.11	25	kWd		Estimated_Distribution	Undetermined	0	Age	47424.84	11.38	119.48	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	163997.11	25	kWd		Estimated_Distribution	Undetermined	1	Age	154508.90	15.89	135.21	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	163997.11	25	kWd		Estimated_Distribution	Undetermined	2	Age	161025.20	48.43	197.35	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	163997.11	25	kWd		Estimated_Distribution	Undetermined	3	Age	142897.43	86.64	231.71	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	163997.11	25	kWd		Estimated_Distribution	Undetermined	4	Age	319458.73	131.78	260.49	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	163997.11	25	kWd		Estimated_Distribution	Undetermined	5	Age	201498.16	153.85	272.94	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	163997.11	25	kWd		Estimated_Distribution	Undetermined	6	Age	184566.75	167.32	280.24	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	163997.11	25	kWd		Estimated_Distribution	Undetermined	7	Age	115508.85	181.41	288.21	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	163997.11	25	kWd		Estimated_Distribution	Undetermined	8	Age	78060.45	190.36	292.16	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	46203.52	50	kWd		Estimated_Distribution	Undetermined	0	Age	13361.04	11.38	119.48	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	46203.52	50	kWd		Estimated_Distribution	Undetermined	1	Age	43529.91	15.89	135.21	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	46203.52	50	kWd		Estimated_Distribution	Undetermined	2	Age	45365.75	48.43	197.35	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	46203.52	50	kWd		Estimated_Distribution	Undetermined	3	Age	40258.60	86.64	231.71	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	46203.52	50	kWd		Estimated_Distribution	Undetermined	4	Age	90001.35	131.78	260.49	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	46203.52	50	kWd		Estimated_Distribution	Undetermined	5	Age	56768.23	153.85	272.94	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	46203.52	50	kWd		Estimated_Distribution	Undetermined	6	Age	51998.13	167.32	280.24	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	46203.52	50	kWd		Estimated_Distribution	Undetermined	7	Age	32542.40	181.41	288.21	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	46203.52	50	kWd		Estimated_Distribution	Undetermined	8	Age	21992.03	190.36	292.16	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	SDN_DEF_>=120_0_0_all	30000.00	20	kWd	30000	Estimated_Distribution	Undetermined	0	Age	7351.03	11.38	119.49	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	SDN_DEF_>=120_0_0_all	30000.00	20	kWd	30000	Estimated_Distribution	Undetermined	1	Age	17010.80	21.11	145.62	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	SDN_DEF_>=120_0_0_all	30000.00	20	kWd	30000	Estimated_Distribution	Undetermined	2	Age	17925.21	53.26	201.17	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	SDN_DEF_>=120_0_0_all	30000.00	20	kWd	30000	Estimated_Distribution	Undetermined	3	Age	17108.96	87.21	231.16	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	SDN_DEF_>=120_0_0_all	30000.00	20	kWd	30000	Estimated_Distribution	Undetermined	4	Age	50265.50	138.19	263.69	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	SDN_DEF_>=120_0_0_all	30000.00	20	kWd	30000	Estimated_Distribution	Undetermined	5	Age	37467.47	159.54	276.22	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	SDN_DEF_>=120_0_0_all	30000.00	20	kWd	30000	Estimated_Distribution	Undetermined	6	Age	36892.83	175.91	286.34	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	SDN_DEF_>=120_0_0_all	30000.00	20	kWd	30000	Estimated_Distribution	Undetermined	7	Age	23594.97	184.98	292.06	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	SDN_DEF_>=120_0_0_all	30000.00	20	kWd	30000	Estimated_Distribution	Undetermined	8	Age	17170.68	194.06	297.03	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	67734.15	100	kWd		Estimated_Distribution	Undetermined	0	Age	19587.40	11.38	119.48	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	67734.15	100	kWd		Estimated_Distribution	Undetermined	1	Age	63815.23	15.89	135.21	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	67734.15	100	kWd		Estimated_Distribution	Undetermined	2	Age	66506.59	48.43	197.35	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	67734.15	100	kWd		Estimated_Distribution	Undetermined	3	Age	59019.46	86.64	231.71	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	67734.15	100	kWd		Estimated_Distribution	Undetermined	4	Age	131942.77	131.78	260.49	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	67734.15	100	kWd		Estimated_Distribution	Undetermined	5	Age	83222.72	153.85	272.94	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	67734.15	100	kWd		Estimated_Distribution	Undetermined	6	Age	76229.71	167.32	280.24	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	67734.15	100	kWd		Estimated_Distribution	Undetermined	7	Age	47707.44	181.41	288.21	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	67734.15	100	kWd		Estimated_Distribution	Undetermined	8	Age	32240.51	190.36	292.16	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	88345.19	100	kWd		Estimated_Distribution	Undetermined	0	Age	25547.71	11.38	119.48	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	88345.19	100	kWd		Estimated_Distribution	Undetermined	1	Age	83233.77	15.89	135.21	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	88345.19	100	kWd		Estimated_Distribution	Undetermined	2	Age	86744.09	48.43	197.35	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	88345.19	100	kWd		Estimated_Distribution	Undetermined	3	Age	76978.68	86.64	231.71	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	88345.19	100	kWd		Estimated_Distribution	Undetermined	4	Age	172092.06	131.78	260.49	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	88345.19	100	kWd		Estimated_Distribution	Undetermined	5	Age	108546.83	153.85	272.94	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	88345.19	100	kWd		Estimated_Distribution	Undetermined	6	Age	99425.90	167.32	280.24	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	88345.19	100	kWd		Estimated_Distribution	Undetermined	7	Age	62224.49	181.41	288.21	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Raised_Discards	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	88345.19	100	kWd		Estimated_Distribution	Undetermined	8	Age	42051.08	190.36	292.16	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	3677000.00	1000	kWd	3677000	Sampled_Distribution	Undetermined	1	Age	2616403.00	11.33	125.80	0	16	7410	16	1674
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	3677000.00	1000	kWd	3677000	Sampled_Distribution	Undetermined	2	Age	2701480.14	43.41	193.14	0	16	7410	16	1674
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	3677000.00	1000	kWd	3677000	Sampled_Distribution	Undetermined	3	Age	2501080.72	87.82	233.75	0	16	7410	16	1674
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	3677000.00	1000	kWd	3677000	Sampled_Distribution	Undetermined	4	Age	6200898.87	134.17	263.49	0	16	7410	16	1674
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	3677000.00	1000	kWd	3677000	Sampled_Distribution	Undetermined	5	Age	4580840.09	164.36	280.34	0	16	7410	16	1674
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	3677000.00	1000	kWd	3677000	Sampled_Distribution	Undetermined	6	Age	4456873.52	176.44	286.82	0	16	7410	16	1674
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	3677000.00	1000	kWd	3677000	Sampled_Distribution	Undetermined	7	Age	2831667.75	188.85	293.91	0	16	7410	16	1674
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	3677000.00	1000	kWd	3677000	Sampled_Distribution	Undetermined	8	Age	2051547.68	197.37	298.25	0	16	7410	16	1674
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	858000.00	1000	kWd	0	Sampled_Distribution	Undetermined	1	Age	795266.51	11.33	125.80	0	2	500	2	100
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	858000.00	1000	kWd	0	Sampled_Distribution	Undetermined	2	Age	819647.28	43.38	193.10	0	2	500	2	100
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	858000.00	1000	kWd	0	Sampled_Distribution	Undetermined	3	Age	735268.90	87.00	233.19	0	2	500	2	100
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	858000.00	1000	kWd	0	Sampled_Distribution	Undetermined	4	Age	1666028.45	131.17	261.90	0	2	500	2	100
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	858000.00	1000	kWd	0	Sampled_Distribution	Undetermined	5	Age	1075619.06	160.29	278.26	0	2	500	2	100
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	858000.00	1000	kWd	0	Sampled_Distribution	Undetermined	6	Age	999245.97	171.33	284.04	0	2	500	2	100
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	858000.00	1000	kWd	0	Sampled_Distribution	Undetermined	7	Age	585951.08	184.15	291.20	0	2	500	2	100
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	1	Quarter	OTB_DEF_80-99_0_0	858000.00	1000	kWd	0	Sampled_Distribution	Undetermined	8	Age	405870.67	195.51	296.89	0	2	500	2	100
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	323000.00	25	kWd	323000	Sampled_Distribution	Undetermined	0	Age	631960.00	11.38	119.50	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	323000.00	25	kWd	323000	Sampled_Distribution	Undetermined	1	Age	541624.00	37.67	178.90	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	323000.00	25	kWd	323000	Sampled_Distribution	Undetermined	2	Age	568326.00	68.69	213.30	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	323000.00	25	kWd	323000	Sampled_Distribution	Undetermined	3	Age	473860.00	85.08	224.22	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	323000.00	25	kWd	323000	Sampled_Distribution	Undetermined	4	Age	906880.00	137.33	254.96	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	323000.00	25	kWd	323000	Sampled_Distribution	Undetermined	5	Age	560310.00	130.65	252.34	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	1	Quarter	SDN_DEF_>=120_0_0_all	323000.00	25	kWd	323000	Sampled_Distribution	Undetermined	8	Age	109084.00	169.30	273.09	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	2935000.00	800	kWd	2935000	Sampled_Distribution	Undetermined	1	Age	178094.00	12.07	129.50	0	11	4047	11	796
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	2935000.00	800	kWd	2935000	Sampled_Distribution	Undetermined	2	Age	237686.00	55.68	205.38	0	11	4047	11	796
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	2935000.00	800	kWd	2935000	Sampled_Distribution	Undetermined	3	Age	503437.00	92.32	238.97	0	11	4047	11	796
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	2935000.00	800	kWd	2935000	Sampled_Distribution	Undetermined	4	Age	4030323.00	146.10	270.36	0	11	4047	11	796
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	2935000.00	800	kWd	2935000	Sampled_Distribution	Undetermined	5	Age	3465598.00	168.20	282.94	0	11	4047	11	796
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	2935000.00	800	kWd	2935000	Sampled_Distribution	Undetermined	6	Age	4322016.00	179.71	289.57	0	11	4047	11	796
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	2935000.00	800	kWd	2935000	Sampled_Distribution	Undetermined	7	Age	2820162.00	182.52	291.94	0	11	4047	11	796
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	2935000.00	800	kWd	2935000	Sampled_Distribution	Undetermined	8	Age	2112407.00	193.90	298.99	0	11	4047	11	796
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	111000.00	800	kWd	0	Sampled_Distribution	Undetermined	1	Age	16579.98	12.17	129.77	0	1	80	1	20
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	111000.00	800	kWd	0	Sampled_Distribution	Undetermined	2	Age	21717.29	54.36	203.55	0	1	80	1	20
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	111000.00	800	kWd	0	Sampled_Distribution	Undetermined	3	Age	36035.67	92.17	236.79	0	1	80	1	20
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	111000.00	800	kWd	0	Sampled_Distribution	Undetermined	4	Age	158270.53	133.10	263.42	0	1	80	1	20
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	111000.00	800	kWd	0	Sampled_Distribution	Undetermined	5	Age	80418.26	153.75	273.47	0	1	80	1	20
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	111000.00	800	kWd	0	Sampled_Distribution	Undetermined	6	Age	150230.89	177.91	286.41	0	1	80	1	20
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	111000.00	800	kWd	0	Sampled_Distribution	Undetermined	7	Age	143591.26	184.42	291.18	0	1	80	1	20
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2	Quarter	OTB_DEF_80-99_0_0	111000.00	800	kWd	0	Sampled_Distribution	Undetermined	8	Age	95970.62	200.42	297.28	0	1	80	1	20
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	SDN_DEF_>=120_0_0_all	111000.00	50	kWd	111000	Sampled_Distribution	Undetermined	1	Age	16579.98	12.17	129.77	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	SDN_DEF_>=120_0_0_all	111000.00	50	kWd	111000	Sampled_Distribution	Undetermined	2	Age	21717.29	54.36	203.55	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	SDN_DEF_>=120_0_0_all	111000.00	50	kWd	111000	Sampled_Distribution	Undetermined	3	Age	36035.67	92.17	236.79	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	SDN_DEF_>=120_0_0_all	111000.00	50	kWd	111000	Sampled_Distribution	Undetermined	4	Age	158270.53	133.10	263.42	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	SDN_DEF_>=120_0_0_all	111000.00	50	kWd	111000	Sampled_Distribution	Undetermined	5	Age	80418.26	153.75	273.47	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	SDN_DEF_>=120_0_0_all	111000.00	50	kWd	111000	Sampled_Distribution	Undetermined	6	Age	150230.89	177.91	286.41	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	SDN_DEF_>=120_0_0_all	111000.00	50	kWd	111000	Sampled_Distribution	Undetermined	7	Age	143591.26	184.42	291.18	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	2	Quarter	SDN_DEF_>=120_0_0_all	111000.00	50	kWd	111000	Sampled_Distribution	Undetermined	8	Age	95970.62	200.42	297.28	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	91000.00	50	kWd	91000	Sampled_Distribution	Undetermined	1	Age	16579.98	12.17	129.77	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	91000.00	50	kWd	91000	Sampled_Distribution	Undetermined	2	Age	21717.29	54.36	203.55	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	91000.00	50	kWd	91000	Sampled_Distribution	Undetermined	3	Age	36035.67	92.17	236.79	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	91000.00	50	kWd	91000	Sampled_Distribution	Undetermined	4	Age	158270.53	133.10	263.42	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	91000.00	50	kWd	91000	Sampled_Distribution	Undetermined	5	Age	80418.26	153.75	273.47	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	91000.00	50	kWd	91000	Sampled_Distribution	Undetermined	6	Age	150230.89	177.91	286.41	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	2	Quarter	SDN_DEF_>=120_0_0_all	91000.00	50	kWd	91000	Sampled_Distribution	Undetermined	7	Age	143591.26	184.42	291.18	0	4	1434	4	253
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2015	Year	SDN_DEF_>=120_0_0_all	197000.00	-9	kWd	0	Sampled_Distribution	Undetermined	0	Age	337763.57	11.38	119.48	0	5	400	5	70
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2015	Year	SDN_DEF_>=120_0_0_all	197000.00	-9	kWd	0	Sampled_Distribution	Undetermined	1	Age	288555.87	37.67	178.88	0	5	400	5	70
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2015	Year	SDN_DEF_>=120_0_0_all	197000.00	-9	kWd	0	Sampled_Distribution	Undetermined	2	Age	305003.39	67.11	212.38	0	5	400	5	70
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2015	Year	SDN_DEF_>=120_0_0_all	197000.00	-9	kWd	0	Sampled_Distribution	Undetermined	3	Age	244764.55	82.17	222.55	0	5	400	5	70
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2015	Year	SDN_DEF_>=120_0_0_all	197000.00	-9	kWd	0	Sampled_Distribution	Undetermined	4	Age	449532.00	133.94	252.87	0	5	400	5	70
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2015	Year	SDN_DEF_>=120_0_0_all	197000.00	-9	kWd	0	Sampled_Distribution	Undetermined	5	Age	277966.11	125.77	249.40	0	5	400	5	70
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2015	Year	SDN_DEF_>=120_0_0_all	197000.00	-9	kWd	0	Sampled_Distribution	Undetermined	6	Age	162100.51	143.75	260.16	0	5	400	5	70
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2015	Year	SDN_DEF_>=120_0_0_all	197000.00	-9	kWd	0	Sampled_Distribution	Undetermined	7	Age	91029.11	167.62	273.47	0	5	400	5	70
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	2015	Year	SDN_DEF_>=120_0_0_all	197000.00	-9	kWd	0	Sampled_Distribution	Undetermined	8	Age	51185.53	162.17	268.63	0	5	400	5	70
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	OTB_DEF_80-99_0_0	1000.00	1	kWd	1000	Sampled_Distribution	Undetermined	2	Age	9.70	60.65	213.20	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	OTB_DEF_80-99_0_0	1000.00	1	kWd	1000	Sampled_Distribution	Undetermined	3	Age	75.25	83.19	234.87	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	OTB_DEF_80-99_0_0	1000.00	1	kWd	1000	Sampled_Distribution	Undetermined	4	Age	1126.43	156.61	275.39	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	OTB_DEF_80-99_0_0	1000.00	1	kWd	1000	Sampled_Distribution	Undetermined	5	Age	1341.42	173.85	285.79	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	OTB_DEF_80-99_0_0	1000.00	1	kWd	1000	Sampled_Distribution	Undetermined	6	Age	1670.43	181.66	290.36	0	0	0	0	0
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	3	Quarter	OTB_DEF_80-99_0_0	1000.00	1	kWd	1000	Sampled_Distribution	Undetermined	8	Age	918.96	192.71	298.27	0	0	0	0	0
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	3	Quarter	OTB_DEF_80-99_0_0	2000.00	1	kWd	0	Sampled_Distribution	Undetermined	1	Age	22.61	28.57	172.50	0	1	40	1	10
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	3	Quarter	OTB_DEF_80-99_0_0	2000.00	1	kWd	0	Sampled_Distribution	Undetermined	2	Age	466.62	47.99	195.90	0	1	40	1	10
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	3	Quarter	OTB_DEF_80-99_0_0	2000.00	1	kWd	0	Sampled_Distribution	Undetermined	3	Age	1658.00	67.87	217.87	0	1	40	1	10
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	3	Quarter	OTB_DEF_80-99_0_0	2000.00	1	kWd	0	Sampled_Distribution	Undetermined	4	Age	1380.15	105.70	244.69	0	1	40	1	10
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	3	Quarter	OTB_DEF_80-99_0_0	2000.00	1	kWd	0	Sampled_Distribution	Undetermined	5	Age	1082.90	162.59	275.72	0	1	40	1	10
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	3	Quarter	OTB_DEF_80-99_0_0	2000.00	1	kWd	0	Sampled_Distribution	Undetermined	6	Age	2922.09	179.55	284.71	0	1	40	1	10
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	3	Quarter	OTB_DEF_80-99_0_0	2000.00	1	kWd	0	Sampled_Distribution	Undetermined	7	Age	2092.01	196.29	294.60	0	1	40	1	10
+aas-arct	TestCountry1	2015	Discards	Reported	Imported_Data	 	IIa	3	Quarter	OTB_DEF_80-99_0_0	2000.00	1	kWd	0	Sampled_Distribution	Undetermined	8	Age	2926.09	197.59	294.98	0	1	40	1	10
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	406000.00	100	kWd	406000	Sampled_Distribution	Undetermined	0	Age	631960.00	11.38	119.50	0	4	2068	4	479
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	406000.00	100	kWd	406000	Sampled_Distribution	Undetermined	1	Age	541624.00	37.67	178.90	0	4	2068	4	479
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	406000.00	100	kWd	406000	Sampled_Distribution	Undetermined	2	Age	568326.00	68.69	213.30	0	4	2068	4	479
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	406000.00	100	kWd	406000	Sampled_Distribution	Undetermined	3	Age	473860.00	85.08	224.22	0	4	2068	4	479
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	406000.00	100	kWd	406000	Sampled_Distribution	Undetermined	4	Age	906880.00	137.33	254.96	0	4	2068	4	479
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	406000.00	100	kWd	406000	Sampled_Distribution	Undetermined	5	Age	560310.00	130.65	252.34	0	4	2068	4	479
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	406000.00	100	kWd	406000	Sampled_Distribution	Undetermined	6	Age	328335.00	148.77	263.14	0	4	2068	4	479
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	406000.00	100	kWd	406000	Sampled_Distribution	Undetermined	7	Age	195099.00	173.23	276.92	0	4	2068	4	479
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	OTB_DEF_80-99_0_0	406000.00	100	kWd	406000	Sampled_Distribution	Undetermined	8	Age	109084.00	169.30	273.09	0	4	2068	4	479
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	SDN_DEF_>=120_0_0_all	197000.00	100	kWd	197000	Sampled_Distribution	Undetermined	0	Age	337763.57	11.38	119.48	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	SDN_DEF_>=120_0_0_all	197000.00	100	kWd	197000	Sampled_Distribution	Undetermined	1	Age	288555.87	37.67	178.88	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	SDN_DEF_>=120_0_0_all	197000.00	100	kWd	197000	Sampled_Distribution	Undetermined	2	Age	305003.39	67.11	212.38	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	SDN_DEF_>=120_0_0_all	197000.00	100	kWd	197000	Sampled_Distribution	Undetermined	3	Age	244764.55	82.17	222.55	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	SDN_DEF_>=120_0_0_all	197000.00	100	kWd	197000	Sampled_Distribution	Undetermined	4	Age	449532.00	133.94	252.87	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	SDN_DEF_>=120_0_0_all	197000.00	100	kWd	197000	Sampled_Distribution	Undetermined	5	Age	277966.11	125.77	249.40	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	SDN_DEF_>=120_0_0_all	197000.00	100	kWd	197000	Sampled_Distribution	Undetermined	6	Age	162100.51	143.75	260.16	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	SDN_DEF_>=120_0_0_all	197000.00	100	kWd	197000	Sampled_Distribution	Undetermined	7	Age	91029.11	167.62	273.47	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIa	4	Quarter	SDN_DEF_>=120_0_0_all	197000.00	100	kWd	197000	Sampled_Distribution	Undetermined	8	Age	51185.53	162.17	268.63	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	174000.00	100	kWd	174000	Sampled_Distribution	Undetermined	0	Age	337763.57	11.38	119.48	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	174000.00	100	kWd	174000	Sampled_Distribution	Undetermined	1	Age	288555.87	37.67	178.88	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	174000.00	100	kWd	174000	Sampled_Distribution	Undetermined	2	Age	305003.39	67.11	212.38	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	174000.00	100	kWd	174000	Sampled_Distribution	Undetermined	3	Age	244764.55	82.17	222.55	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	174000.00	100	kWd	174000	Sampled_Distribution	Undetermined	4	Age	449532.00	133.94	252.87	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	174000.00	100	kWd	174000	Sampled_Distribution	Undetermined	5	Age	277966.11	125.77	249.40	0	2	1377	2	254
+aas-arct	TestCountry1	2015	Landings	Reported	Imported_Data	 	IIb	4	Quarter	SDN_DEF_>=120_0_0_all	174000.00	100	kWd	174000	Sampled_Distribution	Undetermined	6	Age	162100.51	143.75	260.16	0	2	1377	2	254
