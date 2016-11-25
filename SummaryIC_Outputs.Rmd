@@ -8,8 +8,9 @@ output: pdf_document
 
 ```{r echo=F}
 #### ONLY PIECE TO BE CHANGED working directories
-wd <- "F:\\D\\Expertise\\WGNSSK\\2016\\IC\\SOLIV\\"
-#output_wd <- "F:\\D\\Expertise\\WGNSSK\\2016\\IC\\ple-eche_all_ 2016-4-28 16_46_30_all_all\\"
+wd <- "~/git/ices-dk/interCatchSummary/"
+# output_wd <- "~/git/ices-dk/interCatchSummary/"
+
 ```
 
 
@@ -26,12 +27,12 @@ This documet uses Table 2 from CatchAndSampleDataTables.txt from the InterCatch 
 ### libraries
 library(data.table)
 library(gplots)
-library(pander);library(captioner)
+library(pander)
+library(captioner)
 library(lattice)
-#initialise les fonctions pour légender tables et figures
+# Initialize the functions for table and figure legends
 tabcap <- captioner(prefix = "Table")
 figcap <- captioner(prefix = "Figure")
-
 ```
 
 
@@ -39,9 +40,9 @@ figcap <- captioner(prefix = "Figure")
 ### read the data
 test <- scan(paste(wd,"CatchAndSampleDataTables.txt",sep=""),what='character',sep='\t')
 table2 <- test[(which(test=="TABLE 2.")+3):length(test)]
-tmp<-table2[-c(1:56)]			  
+tmp <- table2[-c(1:56)]			  
 			  
-table2_bis<-data.frame(matrix(tmp,ncol=27,byrow=T), stringsAsFactors =F)
+table2_bis <- data.frame(matrix(tmp,ncol=27,byrow=T), stringsAsFactors =F)
 colnames(table2_bis) <- table2[1:27]
 table2_bis <- data.table(table2_bis)
 table2_bis <- table2_bis[,CATON:=as.numeric(as.character(CATON))]

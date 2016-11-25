@@ -6,8 +6,8 @@
 #---
 
 #### ONLY PIECE TO BE CHANGED working directories
-wd <- "F:\\D\\Expertise\\WGNSSK\\2016\\IC\\SOLIV\\"
-output_wd <- "F:\\D\\Expertise\\WGNSSK\\2016\\IC\\SOLIV\\"
+wd <- "~/git/ices-dk/interCatchSummary/"
+output_wd <- "~/git/ices-dk/interCatchSummary/"
 
 #This documet uses Table 2 from CatchAndSampleDataTables.txt from the InterCatch outputs to describe the raising procedures that were made.
 
