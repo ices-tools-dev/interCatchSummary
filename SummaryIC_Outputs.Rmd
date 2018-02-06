@@ -2,14 +2,16 @@
 title: "Analyzing Age structures in IC"
 author: "Youen Vermard"
 date: '`r date()`'
-output: pdf_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 
 ```{r echo=F}
 #### ONLY PIECE TO BE CHANGED working directories
-wd <- "~/git/ices-dk/interCatchSummary/"
-# output_wd <- "~/git/ices-dk/interCatchSummary/"
+wd <- "C:/users/Nathan/Dropbox/ICES/interCatchSummary-master/"
+# output_wd <- "C:/users/Nathan/Dropbox/ICES/interCatchSummary-master/"
 
 ```
 
@@ -38,7 +40,7 @@ figcap <- captioner(prefix = "Figure")
 
 ```{r}
 ### read the data
-test <- scan(paste(wd,"CatchAndSampleDataTables.txt",sep=""),what='character',sep='\t')
+test <- scan(paste(wd,"CatchAndSampleDataTablesTimeSeries.txt",sep=""),what='character',sep='\t')
 table2 <- test[(which(test=="TABLE 2.")+3):length(test)]
 tmp <- table2[-c(1:56)]			  
 			  
@@ -158,12 +160,14 @@ Sampled[,which(colnames(Sampled)==Var)] <- factor(Sampled[,which(colnames(Sample
              xlab = "",
              ylab = paste("Mean ",AgeTit, sep=""),
              xlim = c(0.5, length(unique(AgeStrucSexLan[,which(colnames(Sampled)==Var)]))+.5), ylim = c(min(AgeStrucSexLan$WECA), max(AgeStrucSexLan$WECA)), yaxs = "i", xaxt='n')
-	boxplot(eval(parse(text=Formula)), data=Estim, add=TRUE,
+  if(length(Estim[,1])>0)
+	{boxplot(eval(parse(text=Formula)), data=Estim, add=TRUE,
              boxwex = 0.25, at = which(pos%in%unique(Estim[,which(colnames(Sampled)==Var)])),
-             col = "orange")
-	boxplot(eval(parse(text=Formula)), data=Sampled, add=TRUE,
+             col = "orange")}
+	if(length(Sampled[,1])>0)
+	{boxplot(eval(parse(text=Formula)), data=Sampled, add=TRUE,
              boxwex = 0.25, at = which(pos%in%unique(Sampled[,which(colnames(Sampled)==Var)])) - 0.3,
-             col = "yellow", xaxt='n')
+             col = "yellow", xaxt='n')}
   legend(1, max(AgeStrucSexLan$WECA), c("Imported", "Raised", "All"),
             fill = c("yellow", "orange", "red"))
 }
@@ -220,7 +224,7 @@ pander(SampledOrEstimatedArea)
 ##Impact of the raising on the age/length structure
 
 Once the samples imported or raised are identified, it is possible to check the impact of the allocation scheme on the mean age/length of the final age/length distribution of the stock.
-The following figures compare the mean age (computed as the weighted mean of the age per strata("CatchCategory",'RaisedOrImported',"SampledOrEstimated","Country","Area","Season","Fleet","Sex")) of the estimated stratas compared to the imported ones and the final distribution. Each individual included in the boxplot corresponds to the weighted mean age of a strata.
+The following figures compare the mean age (computed as the weighted mean of the age per strata ("CatchCategory", 'RaisedOrImported', "SampledOrEstimated", "Country", "Area", "Season", "Fleet", "Sex")) of the estimated stratas compared to the imported ones and the final distribution. Each individual included in the boxplot corresponds to the weighted mean age of a strata.
 
 ###Global mean age
 
@@ -378,3 +382,73 @@ AgeStrucSexLan <- AgeStrucSexLan[,AverageWtSize:=mean(WECA), by=list(RaisedOrImp
 AgeStrucSexLan <- AgeStrucSexLan[,stdWECA:=sd(WECA), by=list(RaisedOrImported,AgeOrLength,Area)]
 pander(AgeStrucSexLan[WECA>AverageWtSize+3*stdWECA | WECA<AverageWtSize-3*stdWECA   ,c('Country','Fleet','CatchCategory','WECA','AverageWtSize','AgeOrLength','Area'), with=F])
 ```
+
+##Time-series of catch and discard reporting
+
+Next temporal trends in total catch and discard reporting vs raised discard numbers are inspected 
+
+```{r}
+SummaryReport <- table2_bis[,list(CATON=sum(CANUM*WECA)/1000000), by=c('Year','CatchCategory','RaisedOrImported')]
+
+AnnualLandings<-matrix(NA,nrow=3,ncol=length(unique(SummaryReport$Year)))
+for(i in 1:length(unique(SummaryReport$Year)))
+{
+  AnnualLandings[3,i]<-SummaryReport[(SummaryReport$Year==sort(unique(SummaryReport$Year))[i] & SummaryReport$CatchCategory=='Discards' & SummaryReport$RaisedOrImported=='Raised_Discards'),4][[1]]
+  
+  AnnualLandings[2,i]<-SummaryReport[SummaryReport$Year==sort(unique(SummaryReport$Year))[i] & SummaryReport$CatchCategory=='Discards' & SummaryReport$RaisedOrImported=='Imported_Data',4][[1]]
+  
+  AnnualLandings[1,i]<-SummaryReport[SummaryReport$Year==sort(unique(SummaryReport$Year))[i] & SummaryReport$CatchCategory=='Landings' & SummaryReport$RaisedOrImported=='Imported_Data',4][[1]]
+}
+barplot(AnnualLandings,names=sort(unique(SummaryReport$Year)),col=c('blue','yellow','orange'),ylab='CATON',xlab='Year')
+legend('topright',legend=c('Landings','Imported Discards','Raised Discards'),fill=c('blue','yellow','orange'),bg='white')
+
+
+```
+`r figcap(name="CatchDiscByYr",caption="Catch represented in landings, imported discards, or raised discards by year")`
+
+Next temporal trends in total catch (Landings+imported discards+raised discards) by gear are inspected 
+
+```{r}
+
+table2_bis <- table2_bis[, Gear:=substr(table2_bis$Fleet,1,3)]
+summCatchPerGear <- table2_bis[, list(sumCatch=sum(CANUM*WECA/1000000)), by=c('Year','Gear')]
+
+AnnualCatchGear<-matrix(NA,nrow=length(unique(summCatchPerGear$Gear)),ncol=length(unique(summCatchPerGear$Year)))
+for(i in 1:length(unique(summCatchPerGear$Year)))
+{
+  for(j in 1:length(unique(summCatchPerGear$Gear)))
+  {
+    AnnualCatchGear[j,i]<-summCatchPerGear[(summCatchPerGear$Year==sort(unique(summCatchPerGear$Year))[i] & summCatchPerGear$Gear==unique(summCatchPerGear$Gear)[j]),3][[1]]
+  }
+}
+possibleCols<-c('red','blue','green','yellow','pink','orange','purple','brown','navy','turquoise','thistle','sienna1','springgreen','steelblue','violet')
+colorVals<-possibleCols[1:length(unique(summCatchPerGear$Gear))]
+barplot(AnnualCatchGear,names=sort(unique(summCatchPerGear$Year)),col=colorVals,ylab='CATON',xlab='Year')
+legend('topright',legend=unique(summCatchPerGear$Gear),fill=colorVals,bg='white')
+
+
+```
+`r figcap(name="CatchByGear",caption="Annual catch by gear")`
+
+Next temporal trends in total catch (Landings+imported discards+raised discards) by area are inspected 
+
+```{r}
+
+summCatchPerArea <- table2_bis[, list(sumCatch=sum(CANUM*WECA/1000000)), by=c('Year','Area')]
+
+AnnualCatchArea<-matrix(NA,nrow=length(unique(summCatchPerArea$Area)),ncol=length(unique(summCatchPerArea$Year)))
+for(i in 1:length(unique(summCatchPerArea$Year)))
+{
+  for(j in 1:length(unique(summCatchPerArea$Area)))
+  {
+    AnnualCatchArea[j,i]<-summCatchPerArea[(summCatchPerArea$Year==sort(unique(summCatchPerArea$Year))[i] & summCatchPerArea$Area==unique(summCatchPerArea$Area)[j]),3][[1]]
+  }
+}
+possibleCols<-c('red','blue','green','yellow','pink','orange','purple','brown','navy','turquoise','thistle','sienna1','springgreen','steelblue','violet')
+colorVals<-possibleCols[1:length(unique(summCatchPerArea$Area))]
+barplot(AnnualCatchArea,names=sort(unique(summCatchPerArea$Year)),col=colorVals,ylab='CATON',xlab='Year')
+legend('topright',legend=unique(summCatchPerArea$Area),fill=colorVals,bg='white')
+
+
+```
+`r figcap(name="CatchByArea",caption="Annual catch by area")`
